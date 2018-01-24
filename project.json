@@ -1,0 +1,40 @@
+{
+    "project_type": "javascript",
+    "debugMode": 1,
+    "showFPS": false,
+    "frameRate": 60,
+    "noCache": false,
+    "id": "gameCanvas",
+    "renderMode": 0,
+    "engineDir": "frameworks/cocos2d-html5",
+    "modules": [
+        "cocos2d"
+    ],
+    "jsListOrder": [
+        "src/Base/GameConstant.js",
+        "src/Base/*.js",
+        "src/Logic/*.js",
+        "src/**/*.js"
+    ],
+    "jsList": [
+        "src/Base/GameConstant.js",
+        "src/Base/BasePopupDialog.js",
+        "src/Base/PlatformUtils.js",
+        "src/Base/resource.js",
+        "src/Base/SoundManager.js",
+        "src/Base/Utility.js",
+        "src/Logic/Board.js",
+        "src/Logic/GameDataMgr.js",
+        "src/Logic/MapItemData.js",
+        "src/Logic/Point.js",
+        "src/app.js",
+        "src/Scene/LoadingScreen.js",
+        "src/Scene/MapScreen.js",
+        "src/Scene/MenuScreen.js",
+        "src/Scene/PlayScreen.js",
+        "src/Scene/ScreenMgr.js",
+        "src/View/Dialog/GameOverDialog.js",
+        "src/View/Dialog/MessageDialog.js",
+        "src/View/Map/MapItem.js"
+    ]
+}
