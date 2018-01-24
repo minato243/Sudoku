@@ -1,0 +1,691 @@
+{
+  "ID": "88edc3de-8672-4fe1-a14d-5ee86008adbd",
+  "Version": "2.3.2.2",
+  "Name": "MapInfoDialog",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 53,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "PlistSubImage",
+              "Path": "bg_dialog.png",
+              "Plist": "dialog.plist"
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 240.9999,
+              "Y": 399.0001
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5021,
+              "Y": 0.4988
+            },
+            "PreSize": {
+              "X": 0.8458,
+              "Y": 0.655
+            },
+            "LeftMargin": 37.9999,
+            "RightMargin": 36.0001,
+            "TopMargin": 138.9999,
+            "BottomMargin": 137.0001,
+            "Tag": 54,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "bg_select_title.png",
+                  "Plist": "dialog.plist"
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 209.1823,
+                  "Y": 499.5251
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5152,
+                  "Y": 0.9533
+                },
+                "PreSize": {
+                  "X": 0.7217,
+                  "Y": 0.1221
+                },
+                "LeftMargin": 62.6823,
+                "RightMargin": 50.3177,
+                "TopMargin": -7.5251,
+                "BottomMargin": 467.5251,
+                "Tag": 55,
+                "Children": [
+                  {
+                    "LabelText": "Level 001",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "TW_CONDENSED_40.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 146.5,
+                      "Y": 39.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "G": 165,
+                      "B": 0
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.6094
+                    },
+                    "PreSize": {
+                      "X": 0.3959,
+                      "Y": 0.185
+                    },
+                    "HorizontalEdge": "BothEdge",
+                    "VerticalEdge": "BothEdge",
+                    "LeftMargin": 88.5,
+                    "RightMargin": 88.5,
+                    "TopMargin": 4.0,
+                    "BottomMargin": 18.0,
+                    "Tag": 59,
+                    "ActionTag": -1785803631,
+                    "Size": {
+                      "X": 119.0,
+                      "Y": 42.0
+                    },
+                    "Name": "lb_title",
+                    "ctype": "TextBMFontObjectData"
+                  }
+                ],
+                "ActionTag": 906561602,
+                "Size": {
+                  "X": 293.0,
+                  "Y": 64.0
+                },
+                "Name": "bg_game_over_title",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Disable.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Press.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "bg_btn_off.png",
+                  "Plist": "dialog.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 93,
+                "Scale9Height": 58,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 114.3199,
+                  "Y": 56.0231
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "RotationSkewY": 0.0009,
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2816,
+                  "Y": 0.1069
+                },
+                "PreSize": {
+                  "X": 0.3695,
+                  "Y": 0.1527
+                },
+                "LeftMargin": 39.3199,
+                "RightMargin": 216.6801,
+                "TopMargin": 427.9769,
+                "BottomMargin": 16.0231,
+                "Tag": 60,
+                "Children": [
+                  {
+                    "LabelText": "Restart",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "sudoku.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5032
+                    },
+                    "Position": {
+                      "X": 74.9998,
+                      "Y": 44.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 58,
+                      "G": 19,
+                      "B": 0
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.55
+                    },
+                    "PreSize": {
+                      "X": 0.2,
+                      "Y": 0.0388
+                    },
+                    "LeftMargin": 40.9998,
+                    "RightMargin": 41.0002,
+                    "TopMargin": 20.5996,
+                    "BottomMargin": 28.4004,
+                    "Tag": 61,
+                    "ActionTag": -1189465282,
+                    "Size": {
+                      "X": 85.0,
+                      "Y": 31.0
+                    },
+                    "Name": "lb_menu",
+                    "ctype": "TextBMFontObjectData"
+                  }
+                ],
+                "ActionTag": 843321646,
+                "Size": {
+                  "X": 150.0,
+                  "Y": 80.0
+                },
+                "Name": "btn_menu",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Disable.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Press.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "bg_btn_off.png",
+                  "Plist": "dialog.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 93,
+                "Scale9Height": 58,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 289.8809,
+                  "Y": 55.66
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "RotationSkewY": 0.0009,
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.714,
+                  "Y": 0.1062
+                },
+                "PreSize": {
+                  "X": 0.3695,
+                  "Y": 0.1527
+                },
+                "LeftMargin": 214.8809,
+                "RightMargin": 41.1191,
+                "TopMargin": 428.34,
+                "BottomMargin": 15.66,
+                "Tag": 62,
+                "Children": [
+                  {
+                    "LabelText": "Continue",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "sudoku.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 74.9998,
+                      "Y": 43.9999
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewX": -0.8183,
+                    "RotationSkewY": -0.8192,
+                    "CColor": {
+                      "R": 58,
+                      "G": 19,
+                      "B": 0
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.55
+                    },
+                    "PreSize": {
+                      "X": 0.2,
+                      "Y": 0.0388
+                    },
+                    "LeftMargin": 7.9998,
+                    "RightMargin": 8.0002,
+                    "TopMargin": 20.5001,
+                    "BottomMargin": 28.4999,
+                    "Tag": 63,
+                    "ActionTag": 1423767915,
+                    "Size": {
+                      "X": 107.0,
+                      "Y": 31.0
+                    },
+                    "Name": "lb_new_game",
+                    "ctype": "TextBMFontObjectData"
+                  }
+                ],
+                "ActionTag": 458699156,
+                "Size": {
+                  "X": 150.0,
+                  "Y": 80.0
+                },
+                "Name": "btn_new_game",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "LabelText": "Best time",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "sudoku.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 79.0395,
+                  "Y": 321.4076
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1947,
+                  "Y": 0.6134
+                },
+                "PreSize": {
+                  "X": 0.1396,
+                  "Y": 0.0388
+                },
+                "LeftMargin": 79.0395,
+                "RightMargin": 217.9605,
+                "TopMargin": 187.0924,
+                "BottomMargin": 305.9076,
+                "Tag": 64,
+                "ActionTag": 1938370024,
+                "Size": {
+                  "X": 109.0,
+                  "Y": 31.0
+                },
+                "Name": "L_TIME",
+                "ctype": "TextBMFontObjectData"
+              },
+              {
+                "LabelText": "Best score",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "sudoku.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 79.001,
+                  "Y": 246.635
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1946,
+                  "Y": 0.4707
+                },
+                "PreSize": {
+                  "X": 0.2,
+                  "Y": 0.0388
+                },
+                "LeftMargin": 79.001,
+                "RightMargin": 206.999,
+                "TopMargin": 261.865,
+                "BottomMargin": 231.135,
+                "Tag": 65,
+                "ActionTag": 1830169249,
+                "Size": {
+                  "X": 120.0,
+                  "Y": 31.0
+                },
+                "Name": "L_ERROR",
+                "ctype": "TextBMFontObjectData"
+              },
+              {
+                "LabelText": "07:36",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "sudoku.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 340.0001,
+                  "Y": 317.0006
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 225,
+                  "G": 163,
+                  "B": 64
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8374,
+                  "Y": 0.605
+                },
+                "PreSize": {
+                  "X": 0.1479,
+                  "Y": 0.0388
+                },
+                "LeftMargin": 269.0001,
+                "RightMargin": 65.9999,
+                "TopMargin": 191.4994,
+                "BottomMargin": 301.5006,
+                "Tag": 69,
+                "ActionTag": -797175070,
+                "Size": {
+                  "X": 71.0,
+                  "Y": 31.0
+                },
+                "Name": "lb_time",
+                "ctype": "TextBMFontObjectData"
+              },
+              {
+                "LabelText": "0",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "sudoku.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 340.0001,
+                  "Y": 246.0002
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 225,
+                  "G": 163,
+                  "B": 64
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8374,
+                  "Y": 0.4695
+                },
+                "PreSize": {
+                  "X": 0.2,
+                  "Y": 0.0388
+                },
+                "LeftMargin": 318.0001,
+                "RightMargin": 65.9999,
+                "TopMargin": 262.4998,
+                "BottomMargin": 230.5002,
+                "Tag": 70,
+                "ActionTag": 772180907,
+                "Size": {
+                  "X": 22.0,
+                  "Y": 31.0
+                },
+                "Name": "lb_error",
+                "ctype": "TextBMFontObjectData"
+              },
+              {
+                "LabelText": "Actual time",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "sudoku.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 81.1546,
+                  "Y": 164.7881
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1999,
+                  "Y": 0.3145
+                },
+                "PreSize": {
+                  "X": 0.2,
+                  "Y": 0.0388
+                },
+                "LeftMargin": 81.1546,
+                "RightMargin": 189.8454,
+                "TopMargin": 343.7119,
+                "BottomMargin": 149.2881,
+                "Tag": 77,
+                "ActionTag": -885783636,
+                "Size": {
+                  "X": 135.0,
+                  "Y": 31.0
+                },
+                "Name": "L_ERROR_0",
+                "ctype": "TextBMFontObjectData"
+              },
+              {
+                "LabelText": "01:00:40",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "sudoku.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 342.1532,
+                  "Y": 163.1536
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 225,
+                  "G": 163,
+                  "B": 64
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8427,
+                  "Y": 0.3114
+                },
+                "PreSize": {
+                  "X": 0.2,
+                  "Y": 0.0388
+                },
+                "LeftMargin": 236.1532,
+                "RightMargin": 63.8468,
+                "TopMargin": 345.3464,
+                "BottomMargin": 147.6536,
+                "Tag": 79,
+                "ActionTag": -1920716869,
+                "Size": {
+                  "X": 106.0,
+                  "Y": 31.0
+                },
+                "Name": "lb_error_0",
+                "ctype": "TextBMFontObjectData"
+              }
+            ],
+            "ActionTag": 1680057756,
+            "Size": {
+              "X": 406.0,
+              "Y": 524.0
+            },
+            "Name": "bgDialog",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 480.0,
+          "Y": 800.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "Default/Button_Disable.png",
+        "Default/Button_Press.png",
+        "dialog.plist",
+        "dialog.png",
+        "sudoku.fnt",
+        "sudoku_0.png",
+        "TW_CONDENSED_40.fnt",
+        "TW_CONDENSED_40_0.png"
+      ],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Layer"
+}

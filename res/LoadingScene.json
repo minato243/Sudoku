@@ -1,0 +1,257 @@
+{
+  "ID": "6142824e-2be2-42c9-a301-8a47f97ea92a",
+  "Version": "2.3.2.2",
+  "Name": "LoadingScene",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 133,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "PlistSubImage",
+              "Path": "bg_loading_scense.png",
+              "Plist": "loadingScene.plist"
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 241.6943,
+              "Y": 398.3056
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5035,
+              "Y": 0.4979
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "LeftMargin": 1.6943,
+            "RightMargin": -1.6943,
+            "TopMargin": 1.6945,
+            "BottomMargin": -1.6944,
+            "Tag": 135,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "bg_logo.png",
+                  "Plist": "loadingScene.plist"
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 245.8623,
+                  "Y": 500.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5122,
+                  "Y": 0.625
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 185.3623,
+                "RightMargin": 173.6377,
+                "TopMargin": 233.5,
+                "BottomMargin": 433.5,
+                "Tag": 136,
+                "ActionTag": 111933372,
+                "Size": {
+                  "X": 121.0,
+                  "Y": 133.0
+                },
+                "Name": "bg_logo",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "ic_asi_game.png",
+                  "Plist": "loadingScene.plist"
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 238.7735,
+                  "Y": 381.2862
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4974,
+                  "Y": 0.4766
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 112.2735,
+                "RightMargin": 114.7265,
+                "TopMargin": 391.7138,
+                "BottomMargin": 354.2862,
+                "Tag": 137,
+                "ActionTag": 594878305,
+                "Size": {
+                  "X": 253.0,
+                  "Y": 54.0
+                },
+                "Name": "ic_asi_game",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "bg_bar.png",
+                  "Plist": "loadingScene.plist"
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 238.6371,
+                  "Y": 143.251
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4972,
+                  "Y": 0.1791
+                },
+                "PreSize": {
+                  "X": 0.7667,
+                  "Y": 0.0237
+                },
+                "LeftMargin": 54.6371,
+                "RightMargin": 57.3629,
+                "TopMargin": 647.249,
+                "BottomMargin": 133.751,
+                "Tag": 38,
+                "Children": [
+                  {
+                    "ProgressInfo": 56,
+                    "ImageFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "progress_bar.png",
+                      "Plist": "loadingScene.plist"
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 184.0,
+                      "Y": 9.5
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.7667,
+                      "Y": 0.0237
+                    },
+                    "HorizontalEdge": "BothEdge",
+                    "VerticalEdge": "BothEdge",
+                    "Tag": 138,
+                    "ActionTag": -1293605258,
+                    "Size": {
+                      "X": 368.0,
+                      "Y": 19.0
+                    },
+                    "Name": "progress_bar",
+                    "ctype": "LoadingBarObjectData"
+                  }
+                ],
+                "ActionTag": -1572014049,
+                "Size": {
+                  "X": 368.0,
+                  "Y": 19.0
+                },
+                "Name": "bg_bar",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 1842277903,
+            "Size": {
+              "X": 480.0,
+              "Y": 800.0
+            },
+            "Name": "bgImage",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 480.0,
+          "Y": 800.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "loadingScene.plist",
+        "loadingScene.png"
+      ],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Scene"
+}

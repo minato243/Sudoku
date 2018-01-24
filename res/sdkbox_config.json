@@ -1,0 +1,71 @@
+{
+    "android" : {
+        "AdColony" : {
+            "enabled" : true,
+            "debug" : false,
+            "id" : "app185a7e71e1714831a49ec7",
+            "ads" : {
+                "v4vc" : {
+                    "zone" : "vz1fd5a8b2bf6841a0a4b826",
+                    "v4vc" : true,
+                    "pre_popup" : false,
+                    "post_popup" : false
+                },
+                "video" : {
+                    "zone" : "vz06e8c32a037749699e7050",
+                    "v4vc" : false,
+                    "pre_popup" : false,
+                    "post_popup" : false
+                }
+            }
+        },
+        "GoogleAnalytics" : {
+            "enabled" : true,
+            "trackingCode" : "UA-17485141-7"
+        },
+        "AdMob" : {
+            "enabled" : true,
+            "test" : true,
+            "ads" : {
+                "sudoku_interstitial" : {
+                    "id" : "ca-app-pub-3259459233835724\/5484106680",
+                    "type" : "interstitial",
+                    "is_designed_for_families" : false,
+                    "alignment" : "bottom",
+                    "width" : 0,
+                    "height" : 0
+                },
+                "sudoku_banner" : {
+                    "id" : "ca-app-pub-3259459233835724\/4200435869",
+                    "type" : "banner",
+                    "is_designed_for_families" : false,
+                    "alignment" : "bottom",
+                    "width" : 0,
+                    "height" : 0
+                },
+                "sudoku_video_reward" : {
+                    "id" : "ca-app-pub-3259459233835724\/1161718294",
+                    "type" : "rewarded_video",
+                    "is_designed_for_families" : false,
+                    "alignment" : "bottom"
+                }
+            }
+        },
+        "SdkboxAds" : {
+            "enabled" : true,
+            "units" : [
+                "AdColony",
+                "AdMob"
+            ],
+            "placements" : [
+                
+            ]
+        }
+    },
+    "ios" : [
+        
+    ],
+    "playphone" : [
+        
+    ]
+}

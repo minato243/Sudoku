@@ -1,0 +1,480 @@
+{
+  "ID": "7008c105-2cd2-411e-837e-93529427f710",
+  "Version": "2.3.2.2",
+  "Name": "MessageDialog",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 53,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "PlistSubImage",
+              "Path": "bg_dialog.png",
+              "Plist": "dialog.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 15,
+            "Scale9Width": 376,
+            "Scale9Height": 389,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 240.0,
+              "Y": 400.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.8333,
+              "Y": 0.45
+            },
+            "HorizontalEdge": "BothEdge",
+            "VerticalEdge": "BothEdge",
+            "LeftMargin": 40.0,
+            "RightMargin": 40.0,
+            "TopMargin": 220.0,
+            "BottomMargin": 220.0,
+            "Tag": 90,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "bg_select_title.png",
+                  "Plist": "dialog.plist"
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 196.9925,
+                  "Y": 340.959
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4925,
+                  "Y": 0.9471
+                },
+                "PreSize": {
+                  "X": 0.7325,
+                  "Y": 0.1778
+                },
+                "LeftMargin": 50.4925,
+                "RightMargin": 56.5075,
+                "TopMargin": -12.959,
+                "BottomMargin": 308.959,
+                "Tag": 55,
+                "Children": [
+                  {
+                    "LabelText": "Thong bao",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "TW_CONDENSED_40.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 146.5,
+                      "Y": 39.0016
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "G": 165,
+                      "B": 0
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.6094
+                    },
+                    "PreSize": {
+                      "X": 0.3959,
+                      "Y": 0.185
+                    },
+                    "HorizontalEdge": "BothEdge",
+                    "VerticalEdge": "BothEdge",
+                    "LeftMargin": 88.5,
+                    "RightMargin": 88.5,
+                    "TopMargin": 4.0,
+                    "BottomMargin": 18.0,
+                    "Tag": 59,
+                    "ActionTag": -1785803631,
+                    "Size": {
+                      "X": 138.0,
+                      "Y": 42.0
+                    },
+                    "Name": "lb_title",
+                    "ctype": "TextBMFontObjectData"
+                  }
+                ],
+                "ActionTag": 906561602,
+                "Size": {
+                  "X": 293.0,
+                  "Y": 64.0
+                },
+                "Name": "bg_title",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Disable.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "bg_btn_on.png",
+                  "Plist": "dialog.plist"
+                },
+                "NormalFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "bg_btn_off.png",
+                  "Plist": "dialog.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 93,
+                "Scale9Height": 58,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 114.3199,
+                  "Y": 56.0231
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "RotationSkewY": 0.0009,
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2858,
+                  "Y": 0.1556
+                },
+                "PreSize": {
+                  "X": 0.375,
+                  "Y": 0.2222
+                },
+                "LeftMargin": 39.3199,
+                "RightMargin": 210.6801,
+                "TopMargin": 263.9769,
+                "BottomMargin": 16.0231,
+                "Tag": 60,
+                "Children": [
+                  {
+                    "LabelText": "Cancel",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "sudoku.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5032
+                    },
+                    "Position": {
+                      "X": 74.9998,
+                      "Y": 44.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 58,
+                      "G": 19,
+                      "B": 0
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.55
+                    },
+                    "PreSize": {
+                      "X": 0.2,
+                      "Y": 0.0388
+                    },
+                    "LeftMargin": 40.9998,
+                    "RightMargin": 41.0002,
+                    "TopMargin": 20.5996,
+                    "BottomMargin": 28.4004,
+                    "Tag": 61,
+                    "ActionTag": -1189465282,
+                    "Size": {
+                      "X": 81.0,
+                      "Y": 31.0
+                    },
+                    "Name": "lb_cancel",
+                    "ctype": "TextBMFontObjectData"
+                  }
+                ],
+                "ActionTag": 843321646,
+                "Size": {
+                  "X": 150.0,
+                  "Y": 80.0
+                },
+                "Name": "btn_cancel",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Disable.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "bg_btn_on.png",
+                  "Plist": "dialog.plist"
+                },
+                "NormalFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "bg_btn_off.png",
+                  "Plist": "dialog.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 93,
+                "Scale9Height": 58,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 289.8809,
+                  "Y": 55.66
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "RotationSkewY": 0.0009,
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7247,
+                  "Y": 0.1546
+                },
+                "PreSize": {
+                  "X": 0.375,
+                  "Y": 0.2222
+                },
+                "LeftMargin": 214.8809,
+                "RightMargin": 35.1191,
+                "TopMargin": 264.34,
+                "BottomMargin": 15.66,
+                "Tag": 62,
+                "Children": [
+                  {
+                    "LabelText": "Yes",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "sudoku.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 74.9998,
+                      "Y": 43.9999
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewX": -0.8183,
+                    "RotationSkewY": -0.8192,
+                    "CColor": {
+                      "R": 58,
+                      "G": 19,
+                      "B": 0
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.55
+                    },
+                    "PreSize": {
+                      "X": 0.2,
+                      "Y": 0.0388
+                    },
+                    "LeftMargin": 7.9998,
+                    "RightMargin": 8.0002,
+                    "TopMargin": 20.5001,
+                    "BottomMargin": 28.4999,
+                    "Tag": 63,
+                    "ActionTag": 1423767915,
+                    "Size": {
+                      "X": 45.0,
+                      "Y": 31.0
+                    },
+                    "Name": "lb_accept",
+                    "ctype": "TextBMFontObjectData"
+                  }
+                ],
+                "ActionTag": 458699156,
+                "Size": {
+                  "X": 150.0,
+                  "Y": 80.0
+                },
+                "Name": "btn_accept",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "LabelText": "01:00:40",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "sudoku.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 200.0,
+                  "Y": 270.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 225,
+                  "G": 163,
+                  "B": 64
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.75
+                },
+                "PreSize": {
+                  "X": 0.2,
+                  "Y": 0.0388
+                },
+                "HorizontalEdge": "BothEdge",
+                "VerticalEdge": "BothEdge",
+                "LeftMargin": 147.0,
+                "RightMargin": 147.0,
+                "TopMargin": 74.5,
+                "BottomMargin": 254.5,
+                "Tag": 79,
+                "ActionTag": -1920716869,
+                "Size": {
+                  "X": 106.0,
+                  "Y": 31.0
+                },
+                "Name": "lb_message",
+                "ctype": "TextBMFontObjectData"
+              }
+            ],
+            "ActionTag": -140046505,
+            "Size": {
+              "X": 400.0,
+              "Y": 360.0
+            },
+            "Name": "bgImage",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 480.0,
+          "Y": 800.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "Default/Button_Disable.png",
+        "dialog.plist",
+        "dialog.png",
+        "sudoku.fnt",
+        "sudoku_0.png",
+        "TW_CONDENSED_40.fnt",
+        "TW_CONDENSED_40_0.png"
+      ],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Layer"
+}
