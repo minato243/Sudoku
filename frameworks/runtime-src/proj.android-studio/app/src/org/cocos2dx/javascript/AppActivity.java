@@ -27,10 +27,9 @@ import android.app.Activity;
 import android.app.ActivityManager;
 import android.content.Intent;
 
+import com.biggame.sudoku.AdmobHelper;
 import com.biggame.sudoku.AndroidUtils;
 import com.biggame.sudoku.AppRater;
-import com.biggame.sudoku.R;
-import com.google.android.gms.ads.MobileAds;
 
 import org.cocos2dx.lib.Cocos2dxActivity;
 import org.cocos2dx.lib.Cocos2dxGLSurfaceView;
@@ -46,7 +45,10 @@ public class AppActivity extends Cocos2dxActivity {
 
         AndroidUtils.instance = new AndroidUtils(this);
         AppRater.showRateDialog(this);
-        MobileAds.initialize(this. this.getString(R.string.amob_app_id));
+
+        AdmobHelper admobHelper = new AdmobHelper();
+        admobHelper.init(this);
+        AndroidUtils.instance.setAdmobHelper(admobHelper);
         return glSurfaceView;
     }
 

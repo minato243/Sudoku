@@ -26,6 +26,8 @@ import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
 
+import org.cocos2dx.lib.Cocos2dxJavascriptJavaBridge;
+
 /*Created by thaod on 1/14/2018.*/
 
 
@@ -34,13 +36,14 @@ public class AndroidUtils {
     final static int RC_SIGN_IN = 1001;
     final static int RC_LEADERBOARD_ID = 1002;
 
+    public static AndroidUtils instance;
+
+    private Activity ac;
+    private AdmobHelper admobHelper;
+
     AchievementsClient mAchievementsClient;
     LeaderboardsClient mLeaderboardsClient;
     PlayersClient mPlayersClient;
-
-    public static AndroidUtils instance;
-    private Activity ac;
-
 
     public AndroidUtils(Activity ac)
     {
@@ -59,7 +62,8 @@ public class AndroidUtils {
         AndroidUtils.instance.startSignInIntent();
     }
 
-    public void rateMyApp(){
+    public static void rateMyApp(){
+        Activity ac = AndroidUtils.instance.ac;
         try {
             ac.startActivity(new Intent(
                     Intent.ACTION_VIEW,
@@ -84,6 +88,56 @@ public class AndroidUtils {
         Log.d(TAG,"updateHighScore "+ highScore);
         AndroidUtils.instance.updateScore(highScore);
     }
+
+    public static void showInterstitialAd(){
+        Log.d(TAG, "show InterstitialAd");
+        AndroidUtils.instance.ac.runOnUiThread(new Runnable() {
+            @Override
+            public void run() {
+                AndroidUtils.instance.admobHelper.showInterstitialAd();
+            }
+        });
+    }
+
+    public static void showVideoRewardAd(){
+        Log.d(TAG, "showVideoRewardAd");
+        AndroidUtils.instance.ac.runOnUiThread(new Runnable() {
+            @Override
+            public void run() {
+                AndroidUtils.instance.admobHelper.showVideoRewardAd();
+            }
+        });
+    }
+
+    public static void showBanner(){
+        AndroidUtils.instance.ac.runOnUiThread(new Runnable() {
+            @Override
+            public void run() {
+                AndroidUtils.instance.admobHelper.showAdView();
+            }
+        });
+    }
+
+    public static void hideBanner(){
+        AndroidUtils.instance.ac.runOnUiThread(new Runnable() {
+            @Override
+            public void run() {
+                AndroidUtils.instance.admobHelper.hideAdView();
+            }
+        });
+
+    }
+
+    public static void initBanner(){
+        AndroidUtils.instance.ac.runOnUiThread(new Runnable() {
+            @Override
+            public void run() {
+                AndroidUtils.instance.admobHelper.initBanner(AndroidUtils.instance.ac);
+            }
+        });
+
+    }
+
 
     public void showLeaderBoard(){
         if(mLeaderboardsClient == null) return;
@@ -165,6 +219,10 @@ public class AndroidUtils {
                 });
     }
 
+    public void setAdmobHelper(AdmobHelper admobHelper) {
+        this.admobHelper = admobHelper;
+    }
+
     private void handleException(Exception e, String details) {
         int status = 0;
 
@@ -179,5 +237,10 @@ public class AndroidUtils {
                 .setMessage(message)
                 .setNeutralButton(android.R.string.ok, null)
                 .show();
+    }
+
+    public static void callJSAddGold(int num){
+        String str = String.format("PlatformUtils.prototype.javaCallBackAddGold(%d);", num);
+        Cocos2dxJavascriptJavaBridge.evalString(str);
     }
 }
