@@ -135,8 +135,8 @@
                       "ScaleY": 0.5
                     },
                     "Position": {
-                      "X": 36.6724,
-                      "Y": 40.1652
+                      "X": 36.1,
+                      "Y": 36.1
                     },
                     "Scale": {
                       "ScaleX": 1.0,
@@ -145,17 +145,19 @@
                     "CColor": {},
                     "IconVisible": false,
                     "PrePosition": {
-                      "X": 0.4825,
-                      "Y": 0.5285
+                      "X": 0.475,
+                      "Y": 0.475
                     },
                     "PreSize": {
                       "X": 0.0,
                       "Y": 0.0
                     },
-                    "LeftMargin": 32.1724,
-                    "RightMargin": 34.8276,
-                    "TopMargin": 21.3348,
-                    "BottomMargin": 25.6652,
+                    "HorizontalEdge": "BothEdge",
+                    "VerticalEdge": "BothEdge",
+                    "LeftMargin": 27.1,
+                    "RightMargin": 30.9,
+                    "TopMargin": 18.9,
+                    "BottomMargin": 15.1,
                     "Tag": 14,
                     "ActionTag": -1255624205,
                     "Size": {
@@ -164,6 +166,51 @@
                     },
                     "Name": "Sprite_2",
                     "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "LabelText": "1",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "TW_CONDENSED_32.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 62.0,
+                      "Y": 60.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 238,
+                      "G": 173,
+                      "B": 107
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.8158,
+                      "Y": 0.7895
+                    },
+                    "PreSize": {
+                      "X": 0.1143,
+                      "Y": 0.04
+                    },
+                    "LeftMargin": 54.5,
+                    "RightMargin": 6.5,
+                    "BottomMargin": 44.0,
+                    "Tag": 41,
+                    "ActionTag": -1171662375,
+                    "Size": {
+                      "X": 15.0,
+                      "Y": 32.0
+                    },
+                    "Name": "lb_num",
+                    "ctype": "TextBMFontObjectData"
                   }
                 ],
                 "ActionTag": -1976196917,
@@ -257,8 +304,8 @@
                       "ScaleY": 0.5
                     },
                     "Position": {
-                      "X": 36.6724,
-                      "Y": 40.1652
+                      "X": 36.1,
+                      "Y": 36.1
                     },
                     "Scale": {
                       "ScaleX": 1.0,
@@ -267,17 +314,17 @@
                     "CColor": {},
                     "IconVisible": false,
                     "PrePosition": {
-                      "X": 0.4825,
-                      "Y": 0.5285
+                      "X": 0.475,
+                      "Y": 0.475
                     },
                     "PreSize": {
                       "X": 0.0,
                       "Y": 0.0
                     },
-                    "LeftMargin": 32.1724,
-                    "RightMargin": 34.8276,
-                    "TopMargin": 21.3348,
-                    "BottomMargin": 25.6652,
+                    "LeftMargin": 20.1,
+                    "RightMargin": 23.9,
+                    "TopMargin": 18.4,
+                    "BottomMargin": 14.6,
                     "Tag": 16,
                     "ActionTag": 2136328595,
                     "Size": {
@@ -286,6 +333,51 @@
                     },
                     "Name": "Sprite_2",
                     "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "LabelText": "1",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "TW_CONDENSED_32.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 62.0,
+                      "Y": 60.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 238,
+                      "G": 173,
+                      "B": 107
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.8158,
+                      "Y": 0.7895
+                    },
+                    "PreSize": {
+                      "X": 0.1143,
+                      "Y": 0.04
+                    },
+                    "LeftMargin": 54.5,
+                    "RightMargin": 6.5,
+                    "BottomMargin": 44.0,
+                    "Tag": 43,
+                    "ActionTag": -1833608886,
+                    "Size": {
+                      "X": 15.0,
+                      "Y": 32.0
+                    },
+                    "Name": "lb_num",
+                    "ctype": "TextBMFontObjectData"
                   }
                 ],
                 "ActionTag": 540762071,
@@ -379,8 +471,8 @@
                       "ScaleY": 0.5
                     },
                     "Position": {
-                      "X": 36.6724,
-                      "Y": 40.1652
+                      "X": 36.1,
+                      "Y": 36.1
                     },
                     "Scale": {
                       "ScaleX": 1.0,
@@ -389,17 +481,19 @@
                     "CColor": {},
                     "IconVisible": false,
                     "PrePosition": {
-                      "X": 0.4825,
-                      "Y": 0.5285
+                      "X": 0.475,
+                      "Y": 0.475
                     },
                     "PreSize": {
                       "X": 0.0,
                       "Y": 0.0
                     },
-                    "LeftMargin": 32.1724,
-                    "RightMargin": 34.8276,
-                    "TopMargin": 21.3348,
-                    "BottomMargin": 25.6652,
+                    "HorizontalEdge": "BothEdge",
+                    "VerticalEdge": "BothEdge",
+                    "LeftMargin": 21.6,
+                    "RightMargin": 25.4,
+                    "TopMargin": 18.9,
+                    "BottomMargin": 15.1,
                     "Tag": 19,
                     "ActionTag": 2110110748,
                     "Size": {
@@ -408,6 +502,51 @@
                     },
                     "Name": "Sprite_2",
                     "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "LabelText": "1",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "TW_CONDENSED_32.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 62.0,
+                      "Y": 60.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 238,
+                      "G": 173,
+                      "B": 107
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.8158,
+                      "Y": 0.7895
+                    },
+                    "PreSize": {
+                      "X": 0.1143,
+                      "Y": 0.04
+                    },
+                    "LeftMargin": 54.5,
+                    "RightMargin": 6.5,
+                    "BottomMargin": 44.0,
+                    "Tag": 44,
+                    "ActionTag": 1495825479,
+                    "Size": {
+                      "X": 15.0,
+                      "Y": 32.0
+                    },
+                    "Name": "lb_num",
+                    "ctype": "TextBMFontObjectData"
                   }
                 ],
                 "ActionTag": -1576417037,
@@ -501,8 +640,8 @@
                       "ScaleY": 0.5
                     },
                     "Position": {
-                      "X": 36.6724,
-                      "Y": 40.1652
+                      "X": 36.1,
+                      "Y": 36.1
                     },
                     "Scale": {
                       "ScaleX": 1.0,
@@ -511,17 +650,17 @@
                     "CColor": {},
                     "IconVisible": false,
                     "PrePosition": {
-                      "X": 0.4825,
-                      "Y": 0.5285
+                      "X": 0.475,
+                      "Y": 0.475
                     },
                     "PreSize": {
                       "X": 0.0,
                       "Y": 0.0
                     },
-                    "LeftMargin": 32.1724,
-                    "RightMargin": 34.8276,
-                    "TopMargin": 21.3348,
-                    "BottomMargin": 25.6652,
+                    "LeftMargin": 21.1,
+                    "RightMargin": 24.9,
+                    "TopMargin": 18.4,
+                    "BottomMargin": 14.6,
                     "Tag": 21,
                     "ActionTag": 1604841869,
                     "Size": {
@@ -530,6 +669,51 @@
                     },
                     "Name": "Sprite_2",
                     "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "LabelText": "1",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "TW_CONDENSED_32.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 62.0,
+                      "Y": 60.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 238,
+                      "G": 173,
+                      "B": 107
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.8158,
+                      "Y": 0.7895
+                    },
+                    "PreSize": {
+                      "X": 0.1143,
+                      "Y": 0.04
+                    },
+                    "LeftMargin": 54.5,
+                    "RightMargin": 6.5,
+                    "BottomMargin": 44.0,
+                    "Tag": 45,
+                    "ActionTag": -1954143769,
+                    "Size": {
+                      "X": 15.0,
+                      "Y": 32.0
+                    },
+                    "Name": "lb_num",
+                    "ctype": "TextBMFontObjectData"
                   }
                 ],
                 "ActionTag": 727786111,
@@ -623,8 +807,8 @@
                       "ScaleY": 0.5
                     },
                     "Position": {
-                      "X": 36.6724,
-                      "Y": 40.1652
+                      "X": 36.1,
+                      "Y": 36.1
                     },
                     "Scale": {
                       "ScaleX": 1.0,
@@ -633,17 +817,17 @@
                     "CColor": {},
                     "IconVisible": false,
                     "PrePosition": {
-                      "X": 0.4825,
-                      "Y": 0.5285
+                      "X": 0.475,
+                      "Y": 0.475
                     },
                     "PreSize": {
                       "X": 0.0,
                       "Y": 0.0
                     },
-                    "LeftMargin": 32.1724,
-                    "RightMargin": 34.8276,
-                    "TopMargin": 21.3348,
-                    "BottomMargin": 25.6652,
+                    "LeftMargin": 19.6,
+                    "RightMargin": 23.4,
+                    "TopMargin": 18.9,
+                    "BottomMargin": 15.1,
                     "Tag": 23,
                     "ActionTag": -1864477317,
                     "Size": {
@@ -652,6 +836,51 @@
                     },
                     "Name": "Sprite_2",
                     "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "LabelText": "1",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "TW_CONDENSED_32.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 62.0,
+                      "Y": 60.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 238,
+                      "G": 173,
+                      "B": 107
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.8158,
+                      "Y": 0.7895
+                    },
+                    "PreSize": {
+                      "X": 0.1143,
+                      "Y": 0.04
+                    },
+                    "LeftMargin": 54.5,
+                    "RightMargin": 6.5,
+                    "BottomMargin": 44.0,
+                    "Tag": 46,
+                    "ActionTag": -1496282463,
+                    "Size": {
+                      "X": 15.0,
+                      "Y": 32.0
+                    },
+                    "Name": "lb_num",
+                    "ctype": "TextBMFontObjectData"
                   }
                 ],
                 "ActionTag": 1640959659,
@@ -745,8 +974,8 @@
                       "ScaleY": 0.5
                     },
                     "Position": {
-                      "X": 36.6724,
-                      "Y": 40.1652
+                      "X": 36.1,
+                      "Y": 36.1
                     },
                     "Scale": {
                       "ScaleX": 1.0,
@@ -755,17 +984,17 @@
                     "CColor": {},
                     "IconVisible": false,
                     "PrePosition": {
-                      "X": 0.4825,
-                      "Y": 0.5285
+                      "X": 0.475,
+                      "Y": 0.475
                     },
                     "PreSize": {
                       "X": 0.0,
                       "Y": 0.0
                     },
-                    "LeftMargin": 32.1724,
-                    "RightMargin": 34.8276,
-                    "TopMargin": 21.3348,
-                    "BottomMargin": 25.6652,
+                    "LeftMargin": 20.6,
+                    "RightMargin": 24.4,
+                    "TopMargin": 18.4,
+                    "BottomMargin": 14.6,
                     "Tag": 25,
                     "ActionTag": -620472034,
                     "Size": {
@@ -774,6 +1003,51 @@
                     },
                     "Name": "Sprite_2",
                     "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "LabelText": "1",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "TW_CONDENSED_32.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 62.0,
+                      "Y": 60.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 238,
+                      "G": 173,
+                      "B": 107
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.8158,
+                      "Y": 0.7895
+                    },
+                    "PreSize": {
+                      "X": 0.1143,
+                      "Y": 0.04
+                    },
+                    "LeftMargin": 54.5,
+                    "RightMargin": 6.5,
+                    "BottomMargin": 44.0,
+                    "Tag": 47,
+                    "ActionTag": -2134155844,
+                    "Size": {
+                      "X": 15.0,
+                      "Y": 32.0
+                    },
+                    "Name": "lb_num",
+                    "ctype": "TextBMFontObjectData"
                   }
                 ],
                 "ActionTag": -343359115,
@@ -867,8 +1141,8 @@
                       "ScaleY": 0.5
                     },
                     "Position": {
-                      "X": 36.6724,
-                      "Y": 40.1652
+                      "X": 36.1,
+                      "Y": 36.1
                     },
                     "Scale": {
                       "ScaleX": 1.0,
@@ -877,17 +1151,17 @@
                     "CColor": {},
                     "IconVisible": false,
                     "PrePosition": {
-                      "X": 0.4825,
-                      "Y": 0.5285
+                      "X": 0.475,
+                      "Y": 0.475
                     },
                     "PreSize": {
                       "X": 0.0,
                       "Y": 0.0
                     },
-                    "LeftMargin": 32.1724,
-                    "RightMargin": 34.8276,
-                    "TopMargin": 21.3348,
-                    "BottomMargin": 25.6652,
+                    "LeftMargin": 22.6,
+                    "RightMargin": 26.4,
+                    "TopMargin": 18.9,
+                    "BottomMargin": 15.1,
                     "Tag": 27,
                     "ActionTag": -1549832015,
                     "Size": {
@@ -896,6 +1170,51 @@
                     },
                     "Name": "Sprite_2",
                     "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "LabelText": "1",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "TW_CONDENSED_32.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 62.0,
+                      "Y": 60.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 238,
+                      "G": 173,
+                      "B": 107
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.8158,
+                      "Y": 0.7895
+                    },
+                    "PreSize": {
+                      "X": 0.1143,
+                      "Y": 0.04
+                    },
+                    "LeftMargin": 54.5,
+                    "RightMargin": 6.5,
+                    "BottomMargin": 44.0,
+                    "Tag": 48,
+                    "ActionTag": -522905692,
+                    "Size": {
+                      "X": 15.0,
+                      "Y": 32.0
+                    },
+                    "Name": "lb_num",
+                    "ctype": "TextBMFontObjectData"
                   }
                 ],
                 "ActionTag": 1519902734,
@@ -1111,8 +1430,8 @@
                       "ScaleY": 0.5
                     },
                     "Position": {
-                      "X": 36.6724,
-                      "Y": 40.1652
+                      "X": 36.1,
+                      "Y": 36.1
                     },
                     "Scale": {
                       "ScaleX": 1.0,
@@ -1121,17 +1440,17 @@
                     "CColor": {},
                     "IconVisible": false,
                     "PrePosition": {
-                      "X": 0.4825,
-                      "Y": 0.5285
+                      "X": 0.475,
+                      "Y": 0.475
                     },
                     "PreSize": {
                       "X": 0.0,
                       "Y": 0.0
                     },
-                    "LeftMargin": 32.1724,
-                    "RightMargin": 34.8276,
-                    "TopMargin": 21.3348,
-                    "BottomMargin": 25.6652,
+                    "LeftMargin": 21.6,
+                    "RightMargin": 25.4,
+                    "TopMargin": 18.4,
+                    "BottomMargin": 14.6,
                     "Tag": 31,
                     "ActionTag": -1125328456,
                     "Size": {
@@ -1140,6 +1459,51 @@
                     },
                     "Name": "Sprite_2",
                     "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "LabelText": "1",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "TW_CONDENSED_32.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 62.0,
+                      "Y": 60.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 238,
+                      "G": 173,
+                      "B": 107
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.8158,
+                      "Y": 0.7895
+                    },
+                    "PreSize": {
+                      "X": 0.1143,
+                      "Y": 0.04
+                    },
+                    "LeftMargin": 54.5,
+                    "RightMargin": 6.5,
+                    "BottomMargin": 44.0,
+                    "Tag": 49,
+                    "ActionTag": -630789676,
+                    "Size": {
+                      "X": 15.0,
+                      "Y": 32.0
+                    },
+                    "Name": "lb_num",
+                    "ctype": "TextBMFontObjectData"
                   }
                 ],
                 "ActionTag": -2056471243,
@@ -1233,8 +1597,8 @@
                       "ScaleY": 0.5
                     },
                     "Position": {
-                      "X": 36.6724,
-                      "Y": 40.1652
+                      "X": 36.1,
+                      "Y": 36.1
                     },
                     "Scale": {
                       "ScaleX": 1.0,
@@ -1243,17 +1607,17 @@
                     "CColor": {},
                     "IconVisible": false,
                     "PrePosition": {
-                      "X": 0.4825,
-                      "Y": 0.5285
+                      "X": 0.475,
+                      "Y": 0.475
                     },
                     "PreSize": {
                       "X": 0.0,
                       "Y": 0.0
                     },
-                    "LeftMargin": 32.1724,
-                    "RightMargin": 34.8276,
-                    "TopMargin": 21.3348,
-                    "BottomMargin": 25.6652,
+                    "LeftMargin": 20.1,
+                    "RightMargin": 23.9,
+                    "TopMargin": 18.9,
+                    "BottomMargin": 15.1,
                     "Tag": 33,
                     "ActionTag": 1473973655,
                     "Size": {
@@ -1262,6 +1626,51 @@
                     },
                     "Name": "Sprite_2",
                     "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "LabelText": "9",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "TW_CONDENSED_32.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 62.0,
+                      "Y": 60.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 238,
+                      "G": 173,
+                      "B": 107
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.8158,
+                      "Y": 0.7895
+                    },
+                    "PreSize": {
+                      "X": 0.1143,
+                      "Y": 0.04
+                    },
+                    "LeftMargin": 54.5,
+                    "RightMargin": 6.5,
+                    "BottomMargin": 44.0,
+                    "Tag": 52,
+                    "ActionTag": 131833939,
+                    "Size": {
+                      "X": 19.0,
+                      "Y": 32.0
+                    },
+                    "Name": "lb_num",
+                    "ctype": "TextBMFontObjectData"
                   }
                 ],
                 "ActionTag": -650376748,
@@ -1654,8 +2063,8 @@
                   "Path": "ic_coin.png",
                   "Plist": "playScene.plist"
                 },
-                "Scale9Width": 31,
-                "Scale9Height": 31,
+                "Scale9Width": 28,
+                "Scale9Height": 27,
                 "AnchorPoint": {
                   "ScaleX": 0.5,
                   "ScaleY": 0.5
