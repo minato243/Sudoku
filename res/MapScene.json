@@ -29,7 +29,7 @@
               "ScaleY": 0.5
             },
             "Position": {
-              "X": 239.9999,
+              "X": 240.0,
               "Y": 400.0
             },
             "Scale": {
@@ -48,8 +48,6 @@
             },
             "HorizontalEdge": "BothEdge",
             "VerticalEdge": "BothEdge",
-            "LeftMargin": -0.0001,
-            "RightMargin": 0.0001,
             "Tag": 68,
             "Children": [
               {
@@ -75,7 +73,6 @@
                   "Path": "ic_finished_item.png",
                   "Plist": "mapScene.plist"
                 },
-                "Scale9Enable": true,
                 "Scale9OriginX": 12,
                 "Scale9OriginY": 11,
                 "Scale9Width": 41,
@@ -378,7 +375,6 @@
                   "Path": "ic_ready.png",
                   "Plist": "mapScene.plist"
                 },
-                "Scale9Enable": true,
                 "Scale9OriginX": 12,
                 "Scale9OriginY": 11,
                 "Scale9Width": 38,
@@ -678,14 +674,13 @@
                 },
                 "NormalFileData": {
                   "Type": "PlistSubImage",
-                  "Path": "ic_finished_item.png",
+                  "Path": "ic_ready.png",
                   "Plist": "mapScene.plist"
                 },
-                "Scale9Enable": true,
-                "Scale9OriginX": 12,
-                "Scale9OriginY": 11,
-                "Scale9Width": 41,
-                "Scale9Height": 31,
+                "Scale9OriginX": 5,
+                "Scale9OriginY": 5,
+                "Scale9Width": 52,
+                "Scale9Height": 41,
                 "OutlineColor": {
                   "G": 0,
                   "B": 0
@@ -717,13 +712,13 @@
                   "Y": 0.2316
                 },
                 "PreSize": {
-                  "X": 0.1354,
-                  "Y": 0.0662
+                  "X": 0.1292,
+                  "Y": 0.0637
                 },
-                "LeftMargin": 316.6696,
-                "RightMargin": 98.3304,
-                "TopMargin": 588.2169,
-                "BottomMargin": 158.7831,
+                "LeftMargin": 318.1696,
+                "RightMargin": 99.8304,
+                "TopMargin": 589.2169,
+                "BottomMargin": 159.7831,
                 "Tag": 89,
                 "Children": [
                   {
@@ -741,7 +736,7 @@
                       "ScaleY": 0.5
                     },
                     "Position": {
-                      "X": 32.5,
+                      "X": 31.0,
                       "Y": 7.0001
                     },
                     "Scale": {
@@ -832,7 +827,7 @@
                       "ScaleY": 0.5
                     },
                     "Position": {
-                      "X": 32.5,
+                      "X": 31.0,
                       "Y": 10.9031
                     },
                     "Scale": {
@@ -920,8 +915,8 @@
                       "ScaleY": 0.5
                     },
                     "Position": {
-                      "X": 32.5,
-                      "Y": 31.8
+                      "X": 31.0,
+                      "Y": 30.6
                     },
                     "Scale": {
                       "ScaleX": 1.0,
@@ -955,8 +950,8 @@
                 ],
                 "ActionTag": -1876435297,
                 "Size": {
-                  "X": 65.0,
-                  "Y": 53.0
+                  "X": 62.0,
+                  "Y": 51.0
                 },
                 "Name": "btn_item_3",
                 "ctype": "ButtonObjectData"
@@ -1025,7 +1020,7 @@
                 },
                 "LeftMargin": 216.4952,
                 "RightMargin": 198.5048,
-                "TopMargin": 539.9537,
+                "TopMargin": 539.9538,
                 "BottomMargin": 207.0462,
                 "Tag": 94,
                 "Children": [
@@ -4014,7 +4009,6 @@
                   "Path": "ic_finished_item.png",
                   "Plist": "mapScene.plist"
                 },
-                "Scale9Enable": true,
                 "Scale9OriginX": 12,
                 "Scale9OriginY": 11,
                 "Scale9Width": 41,
@@ -4642,7 +4636,7 @@
                   "ScaleY": 0.5
                 },
                 "Position": {
-                  "X": 243.0,
+                  "X": 243.024,
                   "Y": 765.7915
                 },
                 "Scale": {
@@ -4718,7 +4712,7 @@
                   "ScaleY": 0.5
                 },
                 "Position": {
-                  "X": 231.0,
+                  "X": 230.976,
                   "Y": 30.0397
                 },
                 "Scale": {
