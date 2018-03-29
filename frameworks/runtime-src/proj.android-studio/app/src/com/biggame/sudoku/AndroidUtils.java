@@ -132,7 +132,7 @@ public class AndroidUtils {
         AndroidUtils.instance.ac.runOnUiThread(new Runnable() {
             @Override
             public void run() {
-                AndroidUtils.instance.admobHelper.initBanner(AndroidUtils.instance.ac);
+                AndroidUtils.instance.admobHelper.initBanner(AndroidUtils.instance.ac);  
             }
         });
 
