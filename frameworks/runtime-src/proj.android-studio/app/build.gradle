@@ -8,8 +8,8 @@ android {
         applicationId "com.biggame.sudoku2"
         minSdkVersion 14
         targetSdkVersion 26
-        versionCode 20180210
-        versionName "1.1.5"
+        versionCode 20180405
+        versionName "1.1.6"
         multiDexEnabled true
     }
 

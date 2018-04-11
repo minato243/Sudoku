@@ -26,6 +26,9 @@ package org.cocos2dx.javascript;
 import android.app.Activity;
 import android.app.ActivityManager;
 import android.content.Intent;
+import android.graphics.Bitmap;
+import android.util.Log;
+import android.view.View;
 
 import com.biggame.sudoku.AdmobHelper;
 import com.biggame.sudoku.AndroidUtils;
@@ -57,5 +60,23 @@ public class AppActivity extends Cocos2dxActivity {
         super.onActivityResult(requestCode, resultCode, data);
 
         AndroidUtils.instance.onActivityResult(requestCode, resultCode, data);
+    }
+
+    Bitmap getScreenShot(){
+        View root = this.getGLSurfaceView();
+        Bitmap coverImage;
+
+        try {
+            root.setDrawingCacheEnabled(true);
+            Bitmap base = root.getDrawingCache();
+            coverImage = base.copy(base.getConfig(), false);
+        } catch(Exception e){
+            Log.d("AppActivity","Fail to create screen shot");
+            coverImage = null;
+        } finally {
+            root.setDrawingCacheEnabled(false);
+        }
+
+        return coverImage;
     }
 }
